@@ -163,7 +163,9 @@ export default function LeftDrawer(props) {
             display: {
               sm: "none",
               md: 'block',
-              lg: 'block'
+              lg: 'block',
+              xs:'none'
+              
             }
           }}>
             <ListItemButton style={{ width: '100%' }} onClick={toggleDrawer('left', true)}>

@@ -24,14 +24,18 @@ export default function RightPanel(props) {
         <>
 
 
-                <Grid container spacing={1} height={"100vh"} overflow={"auto"}>
+                <Grid container spacing={1} height={"100vh"} sx={{overflow:{
+                    xs:"none",
+                    md:'auto',
+                    lg:"auto",
+                    sm:'none'
+
+                }}}>
 
                     <Grid item sm={12} md={12} lg={12} >
                         <AboutMe darkTheme={props.darkTheme} />
 
                     </Grid>
-
-
 
                     <Grid item sm={12} md={12} lg={12}>
                        <Services darkTheme={props.darkTheme} />
