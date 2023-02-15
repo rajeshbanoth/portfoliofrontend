@@ -19,7 +19,7 @@ export default function LeftPanel(props) {
 
 
                 <Paper style={{ height: '90vh', borderRadius: '20px', padding: '30px', margin: '20px' }}>
-                    <img src='https://images.unsplash.com/photo-1417325384643-aac51acc9e5d' style={{ borderRadius: '10px' }} width={"100%"} height={"50%"} />
+                    <img src='https://picsum.photos/seed/picsum/200/300' style={{ borderRadius: '10px' }} width={"100%"} height={"50%"} />
                     <div style={{ marginTop: -90 }} >
 
                         <div style={{ textAlign: 'center', alignContent: 'center', justifyContent: 'center', display: 'flex' }}>
