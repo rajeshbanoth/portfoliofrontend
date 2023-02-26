@@ -42,10 +42,10 @@ export default function RightPanel(props) {
 
                     </Grid>
 
-                    <Grid item sm={12} md={12} lg={12}>
+                    {/* <Grid item sm={12} md={12} lg={12}>
                        <Myprice darkTheme={props.darkTheme} />
 
-                    </Grid>
+                    </Grid> */}
 
                     <Grid item sm={12} md={12} lg={12}>
                        <Clients darkTheme={props.darkTheme} />

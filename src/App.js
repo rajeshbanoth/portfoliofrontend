@@ -4,8 +4,10 @@ import WelcomePage from './components/WelcomePage';
 import logo from './logo.svg';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import { CssBaseline } from '@mui/material';
+import Code from './Code';
 
 const darkTheme = createTheme({
+
   palette: {
     //   mode: 'dark',
     background: {
@@ -68,6 +70,8 @@ function App() {
     <div>
             <ThemeProvider theme={darkTheme}>
         <CssBaseline />
+{/* 
+        <Code /> */}
         {!DashboardState ? (<>   <WelcomePage handleDashboardState={handleDashboardState} /> </>) : (<><DashBoard /></>)}
 </ThemeProvider>
 
